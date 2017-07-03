@@ -1,3 +1,6 @@
+.. image:: https://badge.fury.io/py/smsgateway-gammu.svg
+    :target: https://badge.fury.io/py/smsgateway-gammu
+
 ================
 smsgateway-gammu
 ================
@@ -36,13 +39,13 @@ Configuration
 
   # Gammu settings
   gammu:
-  # PIN code, enter pin code there to unlock directly from application
-  pin: 1234
+    # PIN code, enter pin code there to unlock directly from application
+    pin: 1234
 
-  # Configuration : instead of a .gammurc file you can give configuration there
-  # config:
-  #    Device: /dev/tty.HUAWEIMobile-Modem
-  #    Connection: at
+    # Configuration : instead of a .gammurc file you can give configuration there
+    # config:
+    #   Device: /dev/tty.HUAWEIMobile-Modem
+    #   Connection: at
 
   # General settings
   # Phone numbers that doesn't want to receive messages from gateway
